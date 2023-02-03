@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect("mongodb+srv://fernandomarca:navegacaoespacial11@azurefunc.1kpxz.azure.mongodb.net/sciam?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv:", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
